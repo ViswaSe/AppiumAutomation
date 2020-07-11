@@ -1,4 +1,4 @@
-package learn.appium;
+package newemulator;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -8,25 +8,24 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import io.appium.java_client.android.AndroidDriver;
 
-public class day2_LaunchApp {
+public class InstallApp {
 	
 	public static void main(String args[]) throws MalformedURLException
 	{
 		DesiredCapabilities dc=new DesiredCapabilities();
 		
-		dc.setCapability("deviceName", "Redmi Note 6 Pro");
+		dc.setCapability("deviceName", "Android Emulator");
+		dc.setCapability("platformVersion", "10.0");
 		dc.setCapability("platformName", "Android");
 		dc.setCapability("noReset", true);
 		
-		/*dc.setCapability("appPackage", "com.android.mms");
-		dc.setCapability("appActivity", "com.android.mms.ui.MmsTabActivity");*/
-		
-		dc.setCapability("appPackage", "com.android.contacts");
-		dc.setCapability("appActivity", "com.android.contacts.activities.TwelveKeyDialer");
+		//Installing leaf org in emulator
+		dc.setCapability("app", "D:\\Appium\\leaforg.apk");
 		
 		AndroidDriver<WebElement> driver=new AndroidDriver<WebElement>(new URL("http://0.0.0.0:4723/wd/hub"),dc);
-	
-		System.out.println("Given app launched succesfully");
+		
+		System.out.println("App installed succesfully as expected");
+		
 	}
 
 }

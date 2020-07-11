@@ -8,7 +8,7 @@
 	<name>Mobile Automation Appium</name>
 	<description>This is the framework for mobile automation</description>
 	<dependencies>
-		
+
 		<!-- https://mvnrepository.com/artifact/io.appium/java-client -->
 		<dependency>
 			<groupId>io.appium</groupId>

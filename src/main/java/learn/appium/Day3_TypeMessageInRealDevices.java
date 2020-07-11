@@ -7,7 +7,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import io.appium.java_client.android.AndroidDriver;
 
-public class day3_TypeMessageInRealDevices {
+public class Day3_TypeMessageInRealDevices {
 	
 	public static void main(String args[]) throws MalformedURLException, InterruptedException
 	{
