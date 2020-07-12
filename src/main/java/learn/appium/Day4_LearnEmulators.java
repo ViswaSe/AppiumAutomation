@@ -16,7 +16,7 @@ public class Day4_LearnEmulators {
 		
 		dc.setCapability("deviceName", "Android Emulator");
 		dc.setCapability("platformName", "Android");
-		dc.setCapability("platformVersion", "9.0");
+		dc.setCapability("platformVersion", "10.0");
 		dc.setCapability("appPackage", "com.google.android.apps.messaging");
 		dc.setCapability("appActivity", "com.google.android.apps.messaging.ui.ConversationListActivity");
 		

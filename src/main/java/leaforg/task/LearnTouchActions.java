@@ -78,7 +78,6 @@ public class LearnTouchActions {
 				.moveTo(PointOption.point(endCornerX, startY))
 				.release().perform();
 
-
 		System.out.println("Touch Action successfully done");
 	}
 
