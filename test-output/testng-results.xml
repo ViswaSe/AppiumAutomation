@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="68182" started-at="2020-07-15T23:03:16 IST" finished-at="2020-07-15T23:04:24 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="68182" started-at="2020-07-15T23:03:16 IST" finished-at="2020-07-15T23:04:24 IST">
+      <class name="leaforg.framework.TestNG_LaunchAppRealDevice">
+        <test-method status="PASS" signature="launchLeafOrgAppInEmulator()[pri:0, instance:leaforg.framework.TestNG_LaunchAppRealDevice@1be0360]" name="launchLeafOrgAppInEmulator" duration-ms="68068" started-at="2020-07-15T23:03:16 IST" finished-at="2020-07-15T23:04:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchLeafOrgAppInEmulator -->
+      </class> <!-- leaforg.framework.TestNG_LaunchAppRealDevice -->
+      <class name="leaforg.framework.TestNG_LaunchAppEmulator">
+        <test-method status="PASS" signature="launchLeafOrgAppInEmulator()[pri:0, instance:leaforg.framework.TestNG_LaunchAppEmulator@121e813]" name="launchLeafOrgAppInEmulator" duration-ms="46721" started-at="2020-07-15T23:03:16 IST" finished-at="2020-07-15T23:04:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchLeafOrgAppInEmulator -->
+      </class> <!-- leaforg.framework.TestNG_LaunchAppEmulator -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
